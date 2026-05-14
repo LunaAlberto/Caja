@@ -1,3 +1,4 @@
+const { catalogoProductos } = require('./catalogo.js');
 let pedidos = [];
 
 function agregarPedido(producto){
