@@ -15,7 +15,7 @@ const colores = {
 };
 
 const { catalogoProductos, prepararPedido } = require('./catalogo.js');
-const { iniciarServidorCaja } = require('./caja.js');
+const { iniciarServidorCaja } = require('./PracticaNo.4/caja.js');
 
 let carrito = [];
 let clientSocket = null;

@@ -1,5 +1,5 @@
 const net = require('net');
-const { catalogoProductos } = require('./catalogo.js');
+const { catalogoProductos } = require('../catalogo.js');
 let pedidos = [];
 let activeCarrito = null;
 let clienteSocket = null;
